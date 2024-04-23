@@ -1,0 +1,10 @@
+﻿[*.{cs,vb}]
+
+# IDE0040: Adicionar modificadores de acessibilidade
+dotnet_style_require_accessibility_modifiers = omit_if_default
+
+# CS0219: A variável é atribuída, mas seu valor nunca é usado
+dotnet_diagnostic.CS0219.severity = none
+
+# IDE0055: Corrigir a formatação
+dotnet_diagnostic.IDE0055.severity = none
